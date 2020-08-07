@@ -1,0 +1,21 @@
+#columns {
+  /*ex) column-count: 3; 와 column의 개수를 조절할 수도 있음.*/
+  column-width: 350px;
+  column-gap: 15px;
+}
+#columns figure {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+#columns figure img {
+  width: 100%;
+}
+#columns figure figcaption {
+  border-top: 1px solid rgba(0,0,0,0.2);
+  margin-top: 12px;
+  padding: 10px;
+}
